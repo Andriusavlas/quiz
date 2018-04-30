@@ -1,0 +1,25 @@
+.landing{
+    margin-top:200px;
+    h1{
+        color:$color-blue;
+        font-size:28px;
+        font-weight:900;
+        text-align:center;
+    }
+    input, .btn{
+        display:block;
+        margin:auto;
+        width:250px;
+        border-radius:3px;
+        border:1px solid $color-blue;
+        margin-top:15px;
+        text-align:center;
+        line-height:2;
+    }
+    .btn{
+        background-color:$color-blue;
+        cursor:pointer;
+        user-select:none;
+        color:white;
+    }
+}
